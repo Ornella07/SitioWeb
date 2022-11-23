@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PagWeb</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header >
+            <div class="logo">
+                <a href="#">Ornella Sereno Alloa</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>   
+    </div>
+
+<!--SECCION INICIO -->
+<section id="inicio" class="inicio">
+    <div class="contenedor-banner">
+        <div class="contenedor-img">
+             <img src="img/hero.png" alt="">
+             <h2>ORNELLA SERENO</h2>
+            <hr>
+             <h2>Desarrolladora Web</h2>
+             <div class="redes">
+                <a href="https://www.linkedin.com/in/ornella-sereno-alloa-3ba644226" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ornella07/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/ornellasereno/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/ornesereno7" target="_blank" ><i class="fa-brands fa-facebook-f"></i></a>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<!--SECCION SOBRE MI-->
+<section id="sobremi" class="sobremi">
+    <div class="contendio-seccion">
+        <h2>SOBRE MÍ</h2>
+        <p>
+            <span>Hola, soy Ornella</span> Tengo 28 años, soy estudiante autodidacta de Desarrollo Web, vivo en Rosario, Santa Fe.
+            
+        </p>
+        <div class="fila">
+            <button>
+                Descargar CV <a href="Currículum.pdf" download="Curriculum"><i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!--SECCION SKILLS-->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>SKILLS</h2>
+        <div  class="fila">
+            <!--Technical Skills-->
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="barra-skill">
+                        <div class="progreso html">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso css">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso javascript">
+                            <span>45%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Comunicacion</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso creatividad">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicacion</span>
+                    <div class="barra-skill">
+                        <div class="progreso dedicacion">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Proyect Managment</span>
+                    <div class="barra-skill">
+                        <div class="progreso proyect">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+            
+        
+    </div>
+</section>
+    
+
+<!--SECCION CURRICULUM-->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>CURRICULUM</h2>
+       <div class="fila">
+        <div class="col izquieda">
+            <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Tecnicatura Superior en Informatica</h4>
+                    <span class="casa">Instituto Profesorado N60</span>
+                    <span class="fecha">2013-2017</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus quod delectus cum autem ab.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Full Stack</h4>
+                    <span class="casa">Soy Digital Mind</span>
+                    <span class="fecha">2021-2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus quod delectus cum autem ab.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Desarrollo Web </h4>
+                    <span class="casa">Soy Digital Mind</span>
+                    <span class="fecha">2021-2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus quod delectus cum autem ab.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+        </div>
+       </div> 
+    </div>
+</section>
+
+
+<!-- SECCION PORTAFOLIO -->
+<section id="portafolio" class="portafolio">
+    <div class="contenido-seccion">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/uno.jpg">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/tres.jpg">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/seis.jpg">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/dos.jpg">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCION CONTACTO -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                <input type="text" placeholder="Ingresa tu nombre">
+                <input type="tel" placeholder="Ingresa tu telefono">
+                <input type="email" placeholder="Ingrese email">
+                <input type="text" placeholder="Asunto">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="img/map.png">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            Avenida Siempre Viva 123
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            Llamanos: 123456789
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: Saraza@gmail.com.ar
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- SECCION FOOTER -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/ornella-sereno-alloa-3ba644226" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Ornella07/" target="_blank">
+            <i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/ornellasereno/" target="_blank">
+            <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ornesereno7" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i></a>
+    </div>  
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
